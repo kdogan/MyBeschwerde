@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SagUns</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <!-- for login site -->
+    <string name="hello_world">Login Screen</string>
+    <string name="email">Email</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="password_confirm">Password Bestätigen:</string>
+    <string name="login">Login:</string>
+    <string name="registrieren">Registrieren</string>
+    <string name="attempts">Attempts Left:</string>
+    
+    <string name="write_at_home">Write</string>
+    <string name="read_at_home">Read</string>
+    <string name="senden">Senden</string>
+    <string name="abbrechen">Abbrechen</string>
+
+</resources>

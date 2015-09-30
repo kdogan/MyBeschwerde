@@ -1,0 +1,6 @@
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\classes\debug
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3-895b5c55241990b022e8ff0f4e4aae8b47765aaf.jar
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\pre-dexed\debug\junit-4.12-edb677d10177c29fa4f9926be885c44ec5389809.jar
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\pre-dexed\debug\classes-4f215af990082268bcb4d590d8e75bf3f9ce33ab.jar
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-bdcabc7479574c640dc2f2990220da31e854cb99.jar
+C:\Users\kdogan\AndroidStudioProjects\MyBeschwerde\app\build\intermediates\pre-dexed\debug\com.mysql.jdbc_5.1.5-785bd4c7620ab2d53263af48e19c5f5e3b9ffaeb.jar

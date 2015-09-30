@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFF9C8">
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/notepad_img"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp">
+        <!-- her come the text that is not editable -->
+        <TextView
+            android:id="@+id/title_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Title : "
+            android:textSize="18sp"/>
+
+        <!-- here come the editable title text -->
+        <EditText
+            android:id="@+id/title_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/title_text1"
+            android:background="@android:color/transparent"
+            android:hint="Tippen Sie hier Überschrieft ein"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textSize="16sp"/>
+
+        <!-- here come the date of complain -->
+        <TextView
+            android:id="@+id/complaine_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10sp"
+            android:text="T / M / J"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/body"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_text1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:capitalize="sentences"
+            android:fadingEdge="vertical"
+            android:gravity="top"
+            android:hint="Hier kommt die Beschwerde..."
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textSize="15sp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/abb"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/abbrechen"/>
+
+            <Button
+                android:id="@+id/se"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:text="@string/senden"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
